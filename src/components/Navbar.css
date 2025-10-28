@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* --- Top Bar --- */
+.nav-upper {
+  font-family: "ITC Avant Garde Gothic", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #fff;
+  font-size: 12px;
+  line-height: 14px;
+  background-color: #000;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.nav-sec-upper{
+  font-family: "ITC Avant Garde Gothic", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #fff;
+  font-size: 12px;
+  line-height: 2px;
+  background-color: #000;
+  text-align: left;
+  padding: 10px 0;
+}
+.divider {
+  width: 2px;          
+  height: 40px;
+  margin-left: 20px;        
+  background-color: #fff; 
+}
+/* --- Main Navbar --- */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 60px;
+  background-color: #000;
+  border-bottom: 1px solid #eee;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Left NAV*/
+.nav-left {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start; /* pushes logo fully left */
+  align-items: center;
+}
+
+.nav-shop{
+  font-family: "EB Garamond", serif;
+  font-style: italic;
+  font-weight: 400;
+  color: #fff;
+  font-size: 31px;
+  line-height: 32px;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-left: 20px;
+}
+/* Logo */
+.logo-img {
+  width: 100px;   
+  max-width: 100;
+  cursor: pointer;
+  display: block;
+  height: auto;
+  box-sizing: border-box;
+  margin-left: -40px;
+}
+
+
+/* --- Right Section --- */
+.nav-right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 25px;
+}
+
+/* Search icon */
+.search-icon {
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+
+/* Account and Bag Links */
+.account,
+.bag {
+  font-family: "ITC Avant Garde Gothic", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+  gap: 20px;
+}
+.bag{
+  margin-right: -25px;
+}
+
