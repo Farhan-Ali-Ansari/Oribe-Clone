@@ -1,0 +1,118 @@
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 70px 60px;
+  font-family: "ITC Avant Garde Gothic", sans-serif;
+}
+
+/* --- Top Links --- */
+.footer-top {
+  display: flex;
+  gap: 20px;
+  font-size: 12px;
+  margin-bottom: 100px;
+  margin-top: -45px;
+}
+.footer-top a {
+  color: #fff;
+  text-decoration: none;
+}
+.footer-top a:hover {
+  color: #5e5b5b;
+  font-weight: 200;
+}
+
+/* --- Middle Section --- */
+.footer-main {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 250px;
+}
+
+.footer-heading {
+  font-family: "EB Garamond", serif;
+  font-style: italic;
+  text-transform: lowercase;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+.footer-column li {
+  margin-bottom: 8px; 
+}
+.footer-column a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 10px;
+}
+.footer-column a:hover {
+  text-decoration: underline;
+}
+
+/* --- Newsletter Section --- */
+.newsletter-desc {
+  font-size: 10px;
+  margin-bottom: 15px;
+  line-height: 1.4;
+}
+.newsletter-desc a{
+    font-size: 10px;
+    text-decoration: underline;
+}
+.newsletter-desc a:hover {
+  text-decoration: underline;
+  color: #5e5b5b;
+}
+.newsletter-input {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #fff;
+  width: 100%;
+  max-width: 400px;
+}
+.newsletter-input input {
+  background: none;
+  border: none;
+  outline: none;
+  color: #fff;
+  flex: 1;
+  padding: 6px 0;
+}
+.newsletter-input button {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* --- Bottom Section --- */
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+  font-size: 10px;
+  font-family: "EB Garamond", serif;
+}
+
+.footer-bottom p {
+    margin-bottom: -70px;
+}
+
+.footer-logo {
+  width: 70px; /* adjust to fit your design */
+  height: auto;
+  object-fit: contain;
+  margin-bottom: -70px;
+}

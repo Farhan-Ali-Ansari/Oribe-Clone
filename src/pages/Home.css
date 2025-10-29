@@ -1,0 +1,164 @@
+.home-page {
+  width: 100%;
+  overflow: hidden;
+}
+
+/* --- HERO SECTION --- */
+.hero-section {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  overflow: hidden;
+}
+
+.hero-slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  transition: opacity 0.8s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 8%; 
+}
+
+.hero-slide.active {
+  opacity: 1;
+  z-index: 1;
+}
+
+/* --- HERO CONTENT --- */
+.hero-content {
+  color: #fff;
+  max-width: 500px;
+  text-align: right;
+  
+}
+
+.hero-subtitle {
+  font-family: "ITC Avant Garde Gothic", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -1.5px;
+  white-space: pre-line; 
+}
+
+.hero-title {
+  font-family: "EB Garamond", serif;
+  font-weight: 500;
+  font-size: 54px;
+  line-height: 1.1;
+  margin-bottom: 20px;
+  color: #fff;
+  font-style: italic;
+  white-space: pre-line; 
+}
+
+.hero-desc {
+  font-family: "ITC Avant Garde Gothic", sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #ffffff;
+  margin-bottom: 25px;
+  white-space: pre-line; 
+}
+
+.hero-btn {
+  background-color: #fff;
+  color: #000;
+  border: none;
+  padding: 1rem 4rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  font-family: "Poppins", sans-serif;
+  transition: 0.3s ease;
+}
+
+.hero-btn:hover {
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+/* --- Arrows --- */
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  font-weight: 200;
+  color: #fff;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  z-index: 10;
+  
+}
+
+.arrow.left {
+  left: 10px;
+}
+
+.arrow.right {
+  right: 10px;
+}
+
+
+
+/* Default: white text for all slides */
+.hero-content {
+  color: #000000;
+}
+
+/* Only for the 3rd slide (hero3) */
+.hero-slide.dark-text .hero-content {
+  color: #000000;
+}
+
+/* Optional — adjust button for contrast */
+.hero-slide.dark-text .hero-btn {
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #000;
+}
+
+.hero-slide.dark-text .hero-btn:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.hero-slide.dark-text .hero-content,
+.hero-slide.dark-text .hero-content h1,
+.hero-slide.dark-text .hero-content h4,
+.hero-slide.dark-text .hero-content p {
+  color: #000 !important;
+}
+
+/* Center hero2 content both horizontally and vertically */
+.hero-slide.center-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-slide.center-content .hero-content {
+  text-align: center;
+  max-width: 700px;
+}
+
+.hero-slide.center-content .hero-btn {
+  margin: 20px auto 0;
+  display: inline-block;
+}

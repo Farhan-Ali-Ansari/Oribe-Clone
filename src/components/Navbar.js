@@ -30,7 +30,7 @@ function Navbar() {
         </div>
 
        
-
+        {/* RIGHT Navbar */}
         <div className="nav-right">
           <div className="divider"></div>
           <FiSearch className="search-icon" />
