@@ -236,7 +236,7 @@
 .featured-header h2 {
   font-family: "ITC Avant Garde Gothic", sans-serif;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 600;
   color: #000;
   letter-spacing: -1px;
 }
@@ -306,3 +306,592 @@
   letter-spacing: -1px;
 }
 
+/* --- Experience Section --- */
+.experience-section {
+  display: flex;
+  width: 100%;
+  height: 150vh;
+  margin-top: -30px;
+}
+
+/* Each block */
+.experience-block {
+  position: relative;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  overflow: hidden;
+}
+
+/* Background image */
+.left-block {
+  background-image: url("../assets/luxury-bg.jpg"); 
+  background-size: cover;
+  background-position: center;
+}
+
+/* Background video */
+.right-block{
+  background-image: url("../assets/luxury-bg1.jpg"); 
+  background-size: cover;
+  background-position: center;
+}
+
+/* Text content */
+.experience-content {
+  position: relative;
+  z-index: 1;
+  color: #000000;
+  margin-left: 30px;
+  max-width: 400px;
+  text-align: left;
+  padding-right: 60px;
+}
+
+.experience-title1 {
+  font-family: "EB garamond", serif;
+  font-size: 50px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  letter-spacing: -1px;
+}
+
+.experience-desc1 {
+  font-family: "ITC Avant Garde Gothic", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 500;
+  margin-bottom: 25px;
+  letter-spacing: -1px;
+}
+.experience-title2 {
+  font-family: "EB garamond", serif;
+  font-size: 50px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  letter-spacing: -1px;
+  color: #ffffff;
+  font-style: italic;
+}
+
+.experience-desc2 {
+  font-family: "ITC Avant Garde Gothic", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 500;
+  margin-bottom: 25px;
+  letter-spacing: -1px;
+  color: #ffffff;
+}
+
+.experience-btn1 {
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  padding: 20px 70px;
+  font-family: "ITC Avant Garde Gothic", sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+  letter-spacing: -1px;
+  transition: all 0.3s ease;
+}
+.experience-btn2 {
+  background-color: #fff;
+  color: #000;
+  border: none;
+  padding: 20px 70px;
+  font-family: "ITC Avant Garde Gothic", sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  letter-spacing: -1px;
+}
+
+.experience-btn:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+/* --- Newsletter Section --- */
+.newsletter-section {
+  background-color: #000;
+  color: #fff;
+  padding: 60px 80px;
+  font-family: "ITC Avant Garde Gothic", sans-serif;
+}
+
+.newsletter-wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+  margin-left: -30px;
+}
+
+.newsletter-heading {
+  font-family: "EB garamond", serif;
+  font-weight: 400;
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: #fff;
+  letter-spacing: -1px;
+}
+
+.newsletter-text {
+  font-size: 13px;
+  line-height: 1.6;
+  color: #ffffff;
+  margin-bottom: 30px;
+  letter-spacing: -0.5px;
+  
+}
+
+.newsletter-text a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+.newsletter-text a:hover {
+  color: #818181;
+  text-decoration: underline;
+}
+
+.newsletter-input-wrapper {
+  display: flex;
+  align-items: center;
+  padding-bottom: 8px;
+  width: 500%;
+  border-bottom: 1px solid #fff;
+  max-width: 1250px;
+
+}
+
+.newsletter-input {
+  flex: 1;
+  background: transparent !important;
+  border: none !important;
+  color: #fff;
+  font-size: 14px;
+  outline: none !important;
+  font-family: "ITC Avant Garde Gothic", sans-serif;  
+}
+
+.newsletter-input::placeholder {
+  color: #ffffff;
+  letter-spacing: -1px;
+}
+
+.newsletter-submit {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 15px;
+  font-family: "ITC Avant Garde Gothic", sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  margin-left: 800px;
+}
+
+.newsletter-submit:hover {
+  color: #999999;
+}
+
+/* --- BODY & FRAGRANCE SECTION --- */
+.body-fragrance {
+  display: flex;
+  width: 100%;
+  min-height: 90vh;
+}
+
+/* LEFT SIDE */
+.bf-left {
+  flex: 1;
+  background: url("../assets/feature-bg3.jpg") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 70px;
+  color: #fff;
+  position: relative;
+}
+
+.bf-content {
+  max-width: 400px;
+  margin-left: -30px;
+}
+
+.bf-content h5 {
+  font-family: "ITC Avant Garde Gothic", sans-serif;
+  font-weight: 700 !important;
+  letter-spacing: -1px !important;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.bf-content h2 {
+  font-size: 52px;
+  font-family: "EB garamond", serif;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.bf-content p {
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 25px;
+  letter-spacing: -1px;
+  font-weight: 500 !important; 
+}
+
+.bf-content button {
+  background: #fff;
+  color: #000;
+  border: none;
+  padding: 18px 70px;
+  cursor: pointer;
+  font-weight: 500;
+  font-family: "ITC Avant Garde Gothic", sans-serif;
+  transition: 0.3s ease;
+}
+
+.bf-content button:hover {
+  background: #000;
+  color: #fff;
+}
+
+/* RIGHT SIDE */
+.bf-right {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 60px;
+  background-color: #fff;
+}
+
+.bf-product {
+  text-align: left;
+}
+
+.bf-product img {
+  width: 100%;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.bf-info {
+  display: flex;
+  justify-content: space-between;
+  font-family: "ITC Avant Garde Gothic", sans-serif;
+  font-size: 14px;
+  font-weight: 600 !important;
+}
+
+.bf-name {
+  color: #000;
+  
+}
+
+.bf-price {
+  color: #000;
+  font-weight: 500;
+}
+
+/* --- BANNER SECTION --- */
+.Banner {
+  position: relative;
+  background: url("../assets/banner-bg.jpg") center/cover no-repeat; 
+  width: 100%;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  padding: 60px 20px;
+  margin-top: -30px;
+}
+
+.Banner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.45); /* dark overlay for readability */
+  z-index: 1;
+}
+
+.bhead {
+  font-family: "EB garamond", serif;
+  font-size: 52px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+  z-index: 2;
+  font-style: italic;
+}
+
+.bpara {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.6;
+  margin-bottom: 35px;
+  z-index: 2;
+  letter-spacing: -1px;
+}
+
+.bbtn {
+  background: #fff;
+  border: none;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: -1px;
+  padding: 16px 55px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  z-index: 2;
+  text-transform: uppercase;
+}
+
+.bbtn:hover {
+  background: #fff;
+  color: #000;
+}
+
+/* ============================= */
+/* 🌐 RESPONSIVE DESIGN FIXES */
+/* ============================= */
+
+/* --- Tablets (1024px and below) --- */
+@media (max-width: 1024px) {
+
+  /* Hero Section */
+  .hero-section {
+    height: 75vh;
+  }
+
+  .hero-content {
+    max-width: 400px;
+    padding: 0 40px;
+  }
+
+  .hero-title {
+    font-size: 42px;
+  }
+
+  .hero-desc {
+    font-size: 14px;
+  }
+
+  .hero-btn {
+    padding: 0.8rem 2.5rem;
+  }
+
+  /* Features */
+  .icons-section {
+    padding: 40px 20px;
+    gap: 30px;
+  }
+
+  /* Featured */
+  .featured-products {
+    padding: 40px 20px;
+    margin-left: 0;
+  }
+
+  .featured-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  /* Experience */
+  .experience-section {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .experience-block {
+    width: 100%;
+    min-height: 70vh;
+    justify-content: center;
+  }
+
+  .experience-content {
+    text-align: center;
+    margin-left: 0;
+    padding: 40px;
+  }
+
+  /* Newsletter */
+  .newsletter-section {
+    padding: 50px 40px;
+  }
+
+  .newsletter-wrapper {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .newsletter-input-wrapper {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  .newsletter-submit {
+    margin-left: 0;
+  }
+
+  /* Body & Fragrance */
+  .body-fragrance {
+    flex-direction: column;
+  }
+
+  .bf-left {
+    padding: 60px 40px;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .bf-content {
+    margin-left: 0;
+  }
+
+  .bf-right {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 40px;
+  }
+
+  /* Banner */
+  .Banner {
+    min-height: 60vh;
+    padding: 40px 20px;
+  }
+
+  .bhead {
+    font-size: 40px;
+  }
+
+  .bpara {
+    font-size: 15px;
+  }
+}
+
+/* --- Mobile (768px and below) --- */
+@media (max-width: 768px) {
+
+  /* Hero */
+  .hero-section {
+    height: 70vh;
+  }
+
+  .hero-content {
+    max-width: 100%;
+    text-align: center;
+    padding: 0 20px;
+  }
+
+  .hero-slide {
+    justify-content: center !important;
+  }
+
+  .hero-title {
+    font-size: 32px;
+  }
+
+  .hero-desc {
+    font-size: 14px;
+  }
+
+  .hero-btn {
+    padding: 0.7rem 2rem;
+  }
+
+  .arrow {
+    font-size: 16px;
+  }
+
+  /* Features */
+  .icons-section {
+    flex-direction: column;
+    padding: 40px 10px;
+  }
+
+  .icon {
+    text-align: center;
+    flex-direction: column;
+  }
+
+  /* Featured */
+  .featured-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .featured-header {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  /* Experience */
+  .experience-section {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .experience-content {
+    text-align: center;
+    margin: 0 auto;
+    padding: 40px 20px;
+  }
+
+  .experience-title1,
+  .experience-title2 {
+    font-size: 36px;
+  }
+
+  /* Newsletter */
+  .newsletter-section {
+    padding: 40px 20px;
+  }
+
+  .newsletter-input-wrapper {
+    flex-direction: column;
+    align-items: stretch;
+    border-bottom: none;
+  }
+
+  .newsletter-input {
+    border-bottom: 1px solid #fff !important;
+    margin-bottom: 15px;
+  }
+
+  .newsletter-submit {
+    margin: 0;
+    font-size: 14px;
+  }
+
+  /* Body & Fragrance */
+  .bf-right {
+    grid-template-columns: 1fr;
+    padding: 30px;
+  }
+
+  .bf-content h2 {
+    font-size: 38px;
+  }
+
+  .bf-content button {
+    padding: 15px 40px;
+  }
+
+  /* Banner */
+  .bhead {
+    font-size: 32px;
+  }
+
+  .bpara {
+    font-size: 14px;
+  }
+}

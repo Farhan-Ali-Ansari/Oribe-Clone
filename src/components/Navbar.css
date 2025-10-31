@@ -42,7 +42,7 @@
   padding: 18px 60px;
   background-color: #000;
   border-bottom: 1px solid #eee;
-  position: sticky;
+  position: sticky !important;
   top: 0;
   z-index: 1000;
 }
